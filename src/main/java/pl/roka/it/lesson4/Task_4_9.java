@@ -11,14 +11,13 @@ public class Task_4_9 {
 
         double totalResult = 0;
         double currentResult = 10;
-        double percent = 0;
 
         totalResult = currentResult;
 
         for (int i = 0; i < 6; i++) {
-            percent = currentResult * 10 / 100;
-            currentResult = currentResult + percent;
-            totalResult += currentResult;
+
+           currentResult *= 1.1;
+           totalResult += currentResult;
 
         }
         System.out.println(totalResult + " kilometers");

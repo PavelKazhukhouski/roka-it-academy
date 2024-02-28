@@ -9,9 +9,9 @@ public class Task_4_10 {
     public static void main(String[] args) {
         int amoebas = 1;
 
-        for (int i = 3; i <= 24; i += 3) {
-            int amoebaCount = amoebas;
-            amoebas += amoebas * 2 - amoebaCount;
+        for (int i = 0; i < 24; i += 3) {
+
+            amoebas *= 2;
 
             System.out.println(i + " o'clock - quantity " + amoebas + " pcs.");
         }
