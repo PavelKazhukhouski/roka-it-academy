@@ -9,7 +9,7 @@ public class Task_4_15 {
 
         int result = 0;
 
-        for (int i = 1; i < 100; i++) {
+        for (int i = 1; i < 100; i+=2) {
             if (i % 2 != 0) {
                 result += i;
             }
