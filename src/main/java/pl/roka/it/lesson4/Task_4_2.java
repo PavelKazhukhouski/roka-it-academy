@@ -10,7 +10,8 @@ public class Task_4_2 {
         int number = (int) (Math.random() * 20);
         boolean prime = true;
         System.out.println(number);
-        for (int i = 2; i < number; i++) {
+        System.out.println(Math.sqrt(number));
+        for (int i = 2; i <= Math.sqrt(number); i++) {
             if (number % i == 0) {
                 prime = false;
                 break;
